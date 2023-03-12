@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: erdpy
+Version: 5.0.0
+Summary: Package moved (renamed) to multiversx-sdk-cli
+Project-URL: Homepage, https://github.com/multiversx
+Author: MultiversX
+License-Expression: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Moved to:
+ - GitHub: https://github.com/multiversx/mx-sdk-py-cli
+ - PyPI: https://pypi.org/project/multiversx-sdk-cli
+

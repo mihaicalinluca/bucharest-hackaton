@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mxpy
+Version: 5.1.0
+Summary: Reserved package name
+Project-URL: Homepage, https://github.com/multiversx/mx-sdk-py-cli
+Author: MultiversX
+License-Expression: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Please refer to these instead: 
+ - GitHub: https://github.com/multiversx/mx-sdk-py-cli
+ - PyPI: https://pypi.org/project/multiversx-sdk-cli

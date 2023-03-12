@@ -1,0 +1,57 @@
+### Dynamic Reward Auto Compound Staking SC
+
+	## SC structure
+
+		- stake TOKENs -> receive STAKED-TOKEN MetaESDT with stake day as attribute (use transfer Role)
+
+		*ESDTTransferRole : this role enables transfer only to specified addresses. The addresses with the transfer role can transfer anywhere.
+
+		- dynamic staking pool (daily reward is set and divided between users that staked)
+		- auto-compound once a day through a bot that triggers the function (owner only)
+
+
+	## Bot
+
+		- bot.py that calls the SC once a day
+
+	## Frontend
+		
+		# Stats
+			
+			- staked tokens in SC -> from SC
+  			- wallet balance (tokens that can be staked) -> from API
+  			- current APY -> from SC
+  			- reinvested to SC -> from SC
+
+		# Actions
+			
+			- stake -> to SC
+  			- unstake -> to SC
+  			- claim -> to SC
+
+
+
+
+NFT
+token identifier
+nonce
+amount: 1
+
+SFT
+token id
+nonce: 1
+amount: 1000
+
+ESDT token 
+token id
+nonce
+amount: 1000
+
+
+token_id: TOKEN
+nonce: 1
+amount: 1 milion
+
+user1: 1000 TOKEN
+
+user1 (100TOKEN) -> SC 
